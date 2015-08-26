@@ -31,17 +31,17 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * |-----------------------------------------------------------|
      * |Caps |   |   |   |   |   |   |   |Psc|Slk|Pus|Up |   |Backs|
      * |-----------------------------------------------------------|
-     * |      |VoD|VoU|Mut|   |   |  *|  /|Hom|PgU|Lef|   |Enter   |
+     * |Contro|VoD|VoU|Mut|   |   |  *|  /|Hom|PgU|Lef|   |Enter   |
      * |-----------------------------------------------------------|
-     * |        |   |   |   |   |   |  +|  -|End|PgD|Dow|      |   |
+     * |Shift   |   |   |   |   |   |  +|  -|End|PgD|Dow|      |   |
      * `-----------------------------------------------------------'
      *       |   |     |                       |     |   |
      *       `-------------------------------------------'
      */ 
-    KEYMAP(POWER, SLEP,  WAKE,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10,TRNS, F11, TRNS, TRNS,  \
-           CAPS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,PSCR,SLCK,PAUS, UP, TRNS, BSLS,                \
-           TRNS,VOLD,VOLU,MUTE,TRNS,TRNS,LEFT,DOWN,  UP,RGHT,RGHT,TRNS,PENT,                      \
-           TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,PPLS,PMNS,END, PGDN,DOWN,TRNS,TRNS,                      \
+    KEYMAP(POWER, SLEP,  WAKE,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10,TRNS, F11, INS, DEL,  \
+           CAPS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,  UP,SLCK,PAUS,PSCR, TRNS, BSLS,                \
+           LCTL,VOLD,VOLU,MUTE,TRNS,TRNS,LEFT,DOWN,  UP,RGHT,RGHT,TRNS,PENT,                      \
+           LSFT,TRNS,TRNS,TRNS,TRNS,TRNS,PPLS,PMNS,END, PGDN,DOWN,TRNS,TRNS,                      \
                 TRNS,TRNS,          SPC,                TRNS,TRNS),
 
     /* Layer 2: SpaceFN
