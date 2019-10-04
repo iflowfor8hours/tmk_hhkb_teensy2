@@ -19,11 +19,11 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      *       |Fn0  |Alt    |         SpaceFN         |Alt    |Fn0  |
      *       `-----------------------------------------------------'
      */
-    KEYMAP(FN2, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSLS, GRV,  \
-           TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,BSPC,              \
-           LCTL,A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,ENT,                    \
-           LSFT,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,RSFT,FN4,                    \
-                FN0,LALT,          FN1,                RALT,FN0),
+    KEYMAP(FN2,  1,   2,      3,    4,    5,    6,    7,    8,    9,    0,    MINS, EQL,  BSLS, GRV,  \
+           TAB,  Q,   W,      E,    R,    T,    Y,    U,    I,    O,    P,    LBRC, RBRC, BSPC,       \
+           LCTL, A,   S,      D,    F,    G,    H,    J,    K,    L,    SCLN, QUOT, ENT,              \
+           LSFT, Z,   X,      C,    V,    B,    N,    M,    COMM, DOT,  SLSH, RSFT, FN4,              \
+                 FN0, LALT,               FN1,                    RGUI, FN0),
 
     /* Layer 1: HHKB mode (HHKB Fn)
      * ,-----------------------------------------------------------.
@@ -38,11 +38,11 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      *       |   |     |                       |     |   |
      *       `-------------------------------------------'
      */ 
-    KEYMAP(POWER, SLEP,  WAKE,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10,TRNS, F11, INS, DEL,  \
-           CAPS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,  UP,SLCK,PAUS,PSCR, TRNS, BSLS,                \
-           LCTL,VOLD,VOLU,MUTE,TRNS,TRNS,LEFT,DOWN,  UP,RGHT,RGHT,TRNS,PENT,                      \
-           LSFT,TRNS,TRNS,TRNS,TRNS,TRNS,PPLS,PMNS,END, PGDN,DOWN,TRNS,TRNS,                      \
-                TRNS,TRNS,          SPC,                TRNS,TRNS),
+    KEYMAP(POWER, SLEP, WAKE, F3,   F4,   F5,   F6,   F7,   F8,   F9,   F10,  TRNS, F11,  INS, DEL,  \
+           CAPS,  TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, UP,   SLCK, PAUS, PSCR, TRNS, BSLS,      \
+           LCTL,  VOLD, VOLU, MUTE, TRNS, TRNS, LEFT, DOWN, UP,   RGHT, RGHT, TRNS, PENT,            \
+           LSFT,  TRNS, TRNS, TRNS, TRNS, TRNS, PPLS, PMNS, END,  PGDN, DOWN, TRNS, TRNS,            \
+                  TRNS, TRNS,             SPC,                    TRNS, TRNS),
 
     /* Layer 2: SpaceFN
      * ,----------------------------------------------------------------------------.

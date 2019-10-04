@@ -19,12 +19,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define CONFIG_H
 
 
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0xCAFE
-#define DEVICE_VER      0x0104
-#define MANUFACTURER    t.m.k.
-#define PRODUCT         HHKB mod
-#define DESCRIPTION     t.m.k. keyboard firmware for HHKB mod
+#define VENDOR_ID       0xBADD
+#define PRODUCT_ID      0x8888
+#define DEVICE_VER      0x0105
+#define MANUFACTURER    m.x.s.
+#define PRODUCT         long-dead kb
+#define DESCRIPTION     kb that was kinda working
 
 
 /* matrix size */
